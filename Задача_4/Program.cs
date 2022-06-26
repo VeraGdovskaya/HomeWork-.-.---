@@ -7,17 +7,16 @@ Console.Write("input first number: ");
 int number_1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("input second number: ");
 int number_2 = Convert.ToInt32(Console.ReadLine());
-Console.Write("input second number: ");
+Console.Write("input third number: ");
 int number_3 = Convert.ToInt32(Console.ReadLine());
 
 int max = number_1;
 
-if (number_2>max ) max=number_2;
-if (number_3>max ) max=number_3;
+if (max < number_1 ) max = number_2;
+if (max < number_3 ) max = number_3;
 
-Console.Write("max = ");
-Console.WriteLine("a = " + number_1 + ", b = " + number_2 + " c = " + number_3 + " -> max ");
-
+Console.WriteLine(""+ number_1 + ",  "+ number_2 + ", " + number_3 + " -> " + max + "");
+ 
 
 
 
