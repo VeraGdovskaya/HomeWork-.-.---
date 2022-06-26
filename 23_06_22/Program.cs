@@ -9,7 +9,6 @@ int number_1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("input second number: ");
 int number_2 = Convert.ToInt32(Console.ReadLine());
 
-
 if ( number_1 > number_2 )   
     Console.WriteLine("a = " + number_1 + ", b = " + number_2 + " -> a ");
 else
