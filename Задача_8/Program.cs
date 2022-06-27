@@ -6,9 +6,12 @@
 Console.Write("Input number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int q = 2;
+for (int q = 2; q <= number; q++)
+{
+   if( q%2 == 0 )
+   {
+      Console.WriteLine(q);
+   }
+}
 
-if( number >= q )
-    Console.WriteLine("N = " + number + " -> q " ); 
-    q += 2;
 
