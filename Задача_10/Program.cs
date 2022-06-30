@@ -3,7 +3,11 @@
 // 782 -> 8
 // 918 -> 1
 
+
+void randomNumber(){
 int number = new Random().Next(99, 1000);
-int num1 = number % 100;
-int num2 = num1 / 10;
-Console.WriteLine(number +" -> "+ num2);
+Console.Write(number +" -> ");
+Console.WriteLine(number % 100 /10);
+}
+
+randomNumber();
