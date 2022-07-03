@@ -4,7 +4,16 @@
 // 12821 -> да
 // 23432 -> да
 
+Console.Write("Введите пятизначное число: ");
+string number = Console.ReadLine();
+Console.Write(number + " ->");
 
+if (number[0] == number[4] || number[1] == number[3]){
+    Console.WriteLine("yes");
+}
+else {
+   Console.WriteLine("no");
+}
 
 
 // Задача 21
